@@ -88,6 +88,8 @@ GEM
     eventmachine (1.2.5)
     execjs (2.7.0)
     ffi (1.9.18)
+    figaro (1.1.1)
+      thor (~> 0.14)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -215,6 +217,7 @@ DEPENDENCIES
   activeadmin!
   byebug
   devise (> 4.x)
+  figaro
   inherited_resources!
   listen (~> 3.0.5)
   pg
